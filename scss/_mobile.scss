@@ -1,6 +1,7 @@
 /* Mobile styles */
 
 @media(max-width: 768px){
+    /* Hero Section */
     .hero-section-custom{
         padding-top: 0;
         min-height: 90vh;
@@ -10,5 +11,19 @@
     }
     .hero-paragraph{
         font-size: 0.9rem;
+    }
+
+    /* About Section */
+    .about-section{
+        text-align: center;
+        .about-header{
+            font-size: 1.5rem;
+        }
+        .about-under-header{
+            font-size: 1.3rem;
+        }
+        .about-paragraph{
+            font-size: 0.9rem;
+        }
     }
 }
