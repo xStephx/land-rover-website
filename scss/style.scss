@@ -58,25 +58,53 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
-    .about-header{
+
+    .about-header {
         font-weight: 600;
         font-size: 2.1rem;
     }
-    .about-under-header{
+
+    .about-under-header {
         font-weight: 400;
         font-size: 1.9rem;
     }
-    
-    .about-paragraph{
+
+    .about-paragraph {
         font-size: 1rem;
     }
-    
-    .about-image img{
+
+    .about-image img {
         max-width: 100%
     }
 }
 
+/* Overview Section */
+.overview-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .overview-header {
+        font-weight: 600;
+        font-size: 2.2rem;
+    }
+
+    .overview-under-header {
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+
+    .overview-paragraph {
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .overview-image img {
+        transform: scaleX(-1);
+        max-width: 100%;
+    }
+}
 
 
 @import 'mobile';
