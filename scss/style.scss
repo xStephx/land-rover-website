@@ -15,6 +15,10 @@ body {
     font-family: $font-Rubik !important;
 }
 
+.row{
+    margin-bottom: 0 !important;
+}
+
 /* Hero Section */
 .bg-img-hero {
     position: relative;
@@ -107,21 +111,64 @@ body {
 }
 
 /* Gallery Section */
-.gallery-section{
+.gallery-section {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 200px 0;
-    .gallery-header{
+
+    .gallery-header {
         font-size: 2.5rem;
         font-style: italic;
         font-weight: bold;
         padding-bottom: 30px;
     }
-    .gallery-paragraph{
+
+    .gallery-paragraph {
         font-style: italic;
     }
 }
+
+/* Driving Section */
+.bg-img-driving {
+    position: relative;
+    background: url("../img/img-8.gif") no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    z-index: 1;
+}
+
+.bg-img-driving::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: -1;
+}
+.driving-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.driving-header {
+    font-size: 2.1rem;
+    margin: 10px 0;
+}
+
+.under-header-driving {
+    font-size: 1.2rem;
+}
+
+.driving-paragraph {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
 
 
 @import 'mobile';
