@@ -15,7 +15,7 @@ body {
     font-family: $font-Rubik !important;
 }
 
-.row{
+.row {
     margin-bottom: 0 !important;
 }
 
@@ -148,7 +148,8 @@ body {
     background: rgba(0, 0, 0, 0.75);
     z-index: -1;
 }
-.driving-section{
+
+.driving-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -166,6 +167,24 @@ body {
 
 .driving-paragraph {
     font-size: 1rem;
+    margin: 10px 0;
+}
+
+/* Footer */
+.footer {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.footer-header {
+    font-size: 2.1rem;
+    margin: 50px 0;
+    font-weight: 600;
+}
+
+.address,
+.phone{
+    font-weight: bold;
     margin: 10px 0;
 }
 
